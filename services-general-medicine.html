@@ -1,0 +1,895 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>General Medicine</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Testimonial -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext');
+        /*=====================PRIMARY============================= */
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #212112;
+            background-position: center;
+            background-repeat: repeat;
+            background-size: 7%;
+            background-color: #fff;
+            overflow-x: hidden;
+            transition: all 200ms linear;
+        }
+
+        ::selection {
+            color: #fff;
+            background-color: #90ee90;
+        }
+
+        ::-moz-selection {
+            color: #fff;
+            background-color: #90ee90;
+        }
+
+        /*===================== TOP DIV ============================= */
+        #top-div {
+            background-color: #F0EAE1;
+            margin-top: -20px;
+        }
+
+        .top-menu.container {
+            padding-left: 100px;
+        }
+
+        .top-menu .row a {
+            color: black;
+            font-size: 12px;
+        }
+
+        @media (max-width:700px) {
+            .top-menu.container {
+                padding-left: 30px;
+            }
+        }
+
+
+        /*===================== Navigation ============================= */
+        .navigation-wrap .navigation-wrap .navbar {
+            right: 10%;
+        }
+
+        .start-header {
+            opacity: 1;
+            transform: translateY(0);
+            padding: 20px 0;
+            background-color: #5DB0C1;
+            box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
+            -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+        }
+
+        .start-header.scroll-on {
+            box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
+            padding-bottom: 20px;
+            padding-top: 0;
+            -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+
+        }
+
+        .start-header .navbar-brand img {
+            margin-left: 150px;
+        }
+
+        .start-header.scroll-on .navbar-brand img {
+            height: 24px;
+            -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+        }
+
+        .navigation-wrap {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+            background-color: #0B2541;
+        }
+
+        .navigation-wrap .navbar {
+            padding: 0;
+        }
+
+        .navigation-wrap .navbar-brand img {
+            height: 28px;
+            width: auto;
+            display: block;
+            filter: brightness(10%);
+            -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+        }
+
+        .navigation-wrap .navbar-toggler {
+            float: right;
+            border: none;
+            padding-right: 0;
+        }
+
+        .navigation-wrap .navbar-toggler:active,
+        .navigation-wrap .navbar-toggler:focus {
+            outline: none;
+        }
+
+        .navigation-wrap .navbar-light .navbar-toggler-icon {
+            width: 24px;
+            height: 17px;
+            background-image: none;
+            position: relative;
+            border-bottom: 1px solid #F0EAE1;
+            transition: all 300ms linear;
+        }
+
+        .navigation-wrap .navbar-light .navbar-toggler-icon:after,
+        .navigation-wrap .navbar-light .navbar-toggler-icon:before {
+            width: 24px;
+            position: absolute;
+            height: 1px;
+            background-color: #F0EAE1;
+            top: 0;
+            left: 0;
+            content: '';
+            z-index: 2;
+            transition: all 300ms linear;
+        }
+
+        .navigation-wrap .navbar-light .navbar-toggler-icon:after {
+            top: 8px;
+        }
+
+        .navigation-wrap .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+            transform: rotate(45deg);
+        }
+
+        .navigation-wrap .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+            transform: translateY(8px) rotate(-45deg);
+        }
+
+        .navigation-wrap .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+            border-color: transparent;
+        }
+
+        .navigation-wrap .nav-link {
+            color:  #F0EAE1 !important;
+            font-weight: 500;
+            transition: all 200ms linear;
+        }
+
+        .navigation-wrap .nav-item:hover .nav-link {
+            color: #EE7F52 !important;
+        }
+
+        .navigation-wrap .nav-item.active .nav-link {
+            color: #EE7F52 !important;
+        }
+
+        .navigation-wrap .nav-link {
+            position: relative;
+            padding: 5px 0 !important;
+            display: inline-block;
+        }
+
+        .navigation-wrap .nav-item:after {
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            content: '';
+            background-color: #EE7F52;
+            opacity: 0;
+            transition: all 200ms linear;
+        }
+
+        .navigation-wrap .nav-item:hover:after {
+            bottom: 0;
+            opacity: 1;
+        }
+
+        .navigation-wrap .nav-item.active:hover:after {
+            opacity: 0;
+        }
+
+        .navigation-wrap .nav-item {
+            position: relative;
+            transition: all 200ms linear;
+        }
+
+        .navigation-wrap h1 {
+            font-size: 48px;
+            line-height: 1.2;
+            font-weight: 700;
+            color: #28645f;
+            text-align: center;
+        }
+
+        .navigation-wrap p {
+            text-align: center;
+            margin: 0;
+            padding-top: 10px;
+            opacity: 1;
+        }
+
+        .navigation-wrap h1 span {
+            display: inline-block;
+            transition: all 300ms linear;
+            opacity: 1;
+            transform: translate(0);
+        }
+
+        .navigation-wrap .nav-item .dropdown-menu {
+            transform: translate3d(0, 10px, 0);
+            visibility: hidden;
+            opacity: 0;
+            max-height: 0;
+            display: block;
+            padding: 0;
+            margin: 0;
+            left: -150px;
+            transition: all 200ms linear;
+        }
+
+
+        .navigation-wrap .nav-item.show .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+            max-height: 1200px;
+            width: 650px;
+            transform: translate3d(0, 0px, 0);
+        }
+
+        .navigation-wrap .nav-item.show .dropdown-menu .row {
+            display: flex;
+        }
+
+        .navigation-wrap .dropdown-menu {
+            padding: 10px !important;
+            margin: 0;
+            font-size: 13px;
+            letter-spacing: 0px;
+            color: #212121;
+            background-color: #fcfaff;
+            border: none;
+            border-radius: 3px;
+            box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
+            transition: all 200ms linear;
+        }
+
+
+        .navigation-wrap .dropdown-item {
+            padding: 3px 7px;
+            margin: 5px 0;
+            color: #212121;
+            border-radius: 2px;
+            transition: all 200ms linear;
+        }
+
+        .navigation-wrap .dropdown-item:hover,
+        .navigation-wrap .dropdown-item:focus {
+            color: #fff;
+            background-color: #EE7F52;
+        }
+
+
+        /*======================== Media ========================= */
+        @media (max-width: 332px) and (min-width: 200px) {
+            .navigation-wrap .navbar-light .navbar-toggler-icon {
+                margin-right: 40px;
+            }
+        }
+
+        @media (max-width: 378px) and (min-width: 332px) {
+            .navigation-wrap .navbar-light .navbar-toggler-icon {
+                margin-right: 20px;
+            }
+        }
+
+        @media (max-width: 579px) and (min-width: 378px) {
+            .navigation-wrap .navbar-light .navbar-toggler-icon {
+                margin-right: 20px;
+            }
+        }
+
+
+        @media (max-width: 767px) {
+
+            .navigation-wrap .dropdown-item {
+            color: #F0EAE1;
+        }
+
+            .navigation-wrap .dropdown-item:hover,
+            .navigation-wrap .dropdown-item:focus {
+                width: 200px;
+            }
+
+            .navigation-wrap .dropdown-menu,
+            .navigation-wrap .dropdown-item {
+                transition: none;
+            }
+
+            .navigation-wrap .nav-item.show .dropdown-menu .row {
+                flex-direction: row;
+            }
+
+            .navigation-wrap .navbar-brand img {
+                margin-left: 10px;
+            }
+
+            .navigation-wrap h1 {
+                font-size: 38px;
+            }
+
+            .navigation-wrap .nav-item:after {
+                display: none;
+            }
+
+            .navigation-wrap .nav-item::before {
+                position: absolute;
+                display: block;
+                top: 15px;
+                left: 0;
+                width: 11px;
+                height: 1px;
+                content: "";
+                border: none;
+                background-color: #F0EAE1;
+            }
+
+            .navigation-wrap .dropdown-toggle::after {
+                position: absolute;
+                display: block;
+                top: 10px;
+                left: -23px;
+                width: 1px;
+                height: 11px;
+                content: "";
+                border: none;
+                background-color: #F0EAE1;
+                transition: all 200ms linear;
+            }
+
+            .navigation-wrap .dropdown-toggle[aria-expanded="true"]::after {
+                transform: rotate(90deg);
+                opacity: 0;
+            }
+
+            .navigation-wrap .dropdown-menu {
+                padding: 0 !important;
+                background-color: transparent;
+                box-shadow: none;
+                transition: all 200ms linear;
+            }
+
+            .navigation-wrap .dropdown-toggle[aria-expanded="true"]+.dropdown-menu {
+                margin-top: 10px !important;
+                margin-bottom: 20px !important;
+            }
+
+            .navigation-wrap .dark .nav-item::before {
+                background-color: #fff;
+            }
+
+            .navigation-wrap .dark .dropdown-toggle::after {
+                background-color: #fff;
+            }
+
+            .navigation-wrap .dark .dropdown-menu {
+                background-color: transparent;
+                box-shadow: none;
+            }
+        }
+
+        @media (max-width: 800px) {
+            .navigation-wrap .navbar {
+                right: 0;
+            }
+        }
+
+        /* =============================SLIDER================================== */
+        .banner{
+  background-image: url('https://t3.ftcdn.net/jpg/02/07/09/06/240_F_207090644_pzixjQM0iSPLdTTAjDT0DX4nXVMz7Non.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 30px;
+  height:400px;
+}
+
+.banner>h2{
+  height:50px;
+  position:relative;
+  top:160px;
+  left: 20px;
+  width:50%;
+}
+
+.banner>h2{
+  font-size:2.5em;
+  color:white;
+}
+
+   /* ============================MAIN============================================ */
+   /* left content */
+   .main .content{
+    background-color: #fcfcfc;
+    border: 1px solid rgb(226, 222, 222);
+   }
+   .main .content .heading{
+    padding-left: 10px;
+    color: white;
+    background-color: #EE7F52;
+   }
+   .main .service-content{
+    padding: 0 10px;
+   }
+   .main .content .image-div{
+    height: 370px;
+    width: 735px;
+   }
+   .main .content .image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   }
+   /* right content */
+   .main .service-list .heading{
+    background-color: #EE7F52;
+    color: white;
+    padding-left: 90px;
+   }
+   .main .service-list{
+    height: fit-content;
+    border: 1px solid rgb(226, 222, 222) ;
+   }
+   .main .service-list li{
+    list-style-type: none;
+    line-height: 30px;
+   }
+   .main .row .service-list .col-12 li::before{
+            content: "\f061";
+            font-family: fontawesome;
+            text-align: center;
+            padding: 3px;
+            margin: auto 5px;
+            color: white; font-size: 10px;
+            background-color: #EE7F52;
+            border-radius: 50%;
+        }
+    
+    @media only screen and (max-width:1205px) and (min-width:600px){
+        .main .content .image-div{
+            height: 370px;
+            width: 605px;
+        }
+    }
+    @media only screen and (max-width:600px) and (min-width:505px){
+        .main .content .image-div{
+            height: 370px;
+            width: 490px;
+        }
+    }
+    @media only screen and (max-width:505px) and (min-width:478px){
+        .main .content .image-div{
+            height: 370px;
+            width: 450px;
+        }
+    }
+    @media only screen and (max-width:478px) and (min-width:400px){
+        .main .content .image-div{
+            height: 370px;
+            width: 350px;
+        }
+    }
+    @media only screen and (max-width:400px) and (min-width:350px){
+        .main .content .image-div{
+            height: 370px;
+            width: 350px;
+        }
+    }
+    @media only screen and (max-width:350px) and (min-width:300px){
+        .main .content .image-div{
+            height: 330px;
+            width: 300px;
+        }
+    }
+    @media only screen and (max-width:300px){
+        .main .content .image-div{
+            height: 300px;
+            width: 250px;
+        }
+    }
+
+/* ============================FOOTER============================================ */
+.footer {
+            background: #152F4F;
+            color: gray;
+        }
+
+        .footer h4{
+            color: white;
+        }
+
+        .footer .links ul,  .footer .services ul{
+            list-style-type: none;
+        }
+
+        .footer .links li a, .footer .services li a, .footer .location p .phone, .footer .location p .email{
+            color: rgb(202, 196, 196);
+            transition: color 0.2s;
+        }
+
+        .footer .links li a:hover,  .footer .services li a:hover, .footer .location p .phone:hover, .footer .location p .email:hover{
+            text-decoration: underline;
+            color: white;
+        }
+
+        .footer .about-company i {
+            font-size: 25px;
+        }
+
+        .footer .about-company a {
+            color: white;
+            transition: color 0.2s;
+        }
+
+        .footer .location i {
+            font-size: 18px;
+        }
+
+        .footer .copyright p {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="hero-anime">
+        <div class="navigation-wrap start-header start-style">
+            <div id="top-div">
+                <div class="top-menu hide container">
+                    <div class="row">
+                        <div class="col-sm-3  col-6 email"><a href="">example123@gmail.com</a></div>
+                        <div class="col-sm-3  col-6 contact"><a href="">+91 8765745368</a></div>
+                        <div class="col-sm-3  col-6 helpline"><a href="">+91 7456789765</a></div>
+                        <div class="col-sm-3  col-6 location-link"><a href="">Location</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-container container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-md navbar-light">
+                            <a class="navbar-brand" href="" target="_blank"><img src="" alt=""></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto py-4 py-md-0">
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="about-us.html">About Us</a>
+
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="our-team.html">Our Team</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                                        <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#"
+                                            role="button" aria-haspopup="true" aria-expanded="false">Services
+                                            Offered</a>
+                                        <div class="dropdown-menu">
+                                            <div class="row d-inline-block d-sm-flex">
+                                                <div class="col-4">
+                                                    <a class="dropdown-item"
+                                                        href="services-general-medicine.html">General Medicine</a>
+                                                    <a class="dropdown-item"
+                                                        href="services-general-surgery.html">General Surgery</a>
+                                                    <a class="dropdown-item"
+                                                        href="services-arthroscopy.html">Arthroscopy</a>
+                                                    <a class="dropdown-item"
+                                                        href="services-non-invasive-cardiology.html">Non Invasive
+                                                        Cardiology</a>
+                                                    <a class="dropdown-item"
+                                                        href="services-dentistry.html">Dentistry</a>
+                                                </div>
+                                                <div class="col-4">
+                                                    <a class="dropdown-item" href="services-ent.html">ENT</a>
+                                                    <a class="dropdown-item"
+                                                        href="services-laparoscopic-surgery.html">Laparoscopic
+                                                        Surgery</a>
+                                                    <a class="dropdown-item"
+                                                        href="services-obstetrics-gynaecology.html">Obstetrics &
+                                                        Gynaecology</a>
+                                                    <a class="dropdown-item"
+                                                        href="services-ophthalmology.html">Opthalmology</a>
+                                                    <a class="dropdown-item"
+                                                        href="services-paediatrics.html">Paediatrics</a>
+                                                </div>
+                                                <div class="col-4">
+                                                    <a class="dropdown-item"
+                                                        href="services-paed-surgery.html">Paediatrics surgery</a>
+                                                    <a class="dropdown-item"
+                                                        href="services-physiotherapy.html">Physiotherapy</a>
+                                                    <a class="dropdown-item" href="#">Surgical Gastroenterology</a>
+                                                    <a class="dropdown-item"
+                                                        href="services-surgical-oncology.html">Surgical Oncology</a>
+                                                    <a class="dropdown-item" href="services-urology.html">Urology</a>
+                                                    <a class="dropdown-item" href="#">Inverstigation</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="empanelment.html">Empanelment</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="gallery-new.html">Gallery</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="contact.html">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!------------------------------- BANNER ----------------------------------------->
+         <div class="banner">
+            <h2>Services</h2>
+          </div>
+
+    <!-------------------------------  MAIN ----------------------------------------->
+     <div class="container main">
+        <div class="row main-row mt-4">
+            <div class="content col-12 col-md-8 mr-sm-3">
+                <div class="row heading pt-2">
+                    <h6>General Medicine</h6>
+                </div>
+                <div class="row">
+                    <div class="service-content mt-2">
+                    <p>At SDHRC, we offer a comprehensive range of General Medicine services for adults, including preventive care,
+                        diagnosis, and treatment of various medical conditions. Our team of highly trained and experienced general
+                        medicine practitioners or internists is dedicated to providing quality care to our patients.
+                        SDHRC provide a wide range of general medicine services to help patients manage their health and recover from
+                        illness or injury. Our services includes:
+                    </p>
+                    <div class="image-div">
+                        <img src="https://t3.ftcdn.net/jpg/00/86/83/06/240_F_86830610_oeZJ0BG7scg8su2cUug3db6TMollVqtA.jpg" alt="">
+                    </div>
+                    <ul class="mt-3">
+                        <li>
+                            Consultations: consultations with general medicine physicians who can provide patients with
+                            information on how to maintain good health and prevent illness.</li>
+                        <li>
+                            Diagnosis: diagnostic tests to help identify and diagnose various medical conditions. These tests include
+                            blood tests, imaging tests like digital X-rays, and other tests such as electrocardiograms (ECGs).</li>
+                        <li>
+                            Treatment: treatments for various medical conditions, including medication, physical therapy, and
+                        surgery.</li>
+                        <li>
+                            Chronic Disease Management: we also provide care for patients with chronic diseases such as diabetes,
+                            hypertension, and heart disease. They offer ongoing monitoring, medication management, and lifestyle
+                            counselling to help patients manage their conditions.</li>
+                        <li>Emergency Care: emergency medical services for patients who require immediate care for conditions
+                            such as heart attacks, strokes, and injuries.</li>
+                        <li>Rehabilitation Services: rehabilitation services to help patients recover from injuries, illnesses, and
+                            surgeries.</li>
+                        <li>Preventive Care: preventive care services such as vaccinations, health screenings, and health education
+                            to help patients maintain good health and prevent the onset of illness.</li>
+                    </ul>
+                    <p>Overall, we offer a wide range of general medicine services to help patients manage their health and recover
+                        from illness or injury.</p>
+                 </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-12 service-list ml-3">
+                <div class="row heading pt-2">
+                    <h4>Services</h4>
+                </div>
+                <div class="row mt-3 mb-3">
+                    <div class="col-12">
+                        <li>Anaesthesiology</li>
+                        <li>Anthroscopy & Surgery</li>
+                        <li>Critical Care Units (ICU, <span class="ml-sm-4">PICU, NICU)</span></li>
+                        <li>Dental Clinic</li>
+                        <li>ENT Facilities</li>
+                        <li>Endoscopy</li>
+                        <li>2D Echo</li>
+                        <li>family Physician</li>
+                    </div>
+                    <div class="col-12">
+                        <li>General Surgery</li>
+                        <li>G.I. Surgery</li>
+                        <li>Medicine</li>
+                        <li>Neurology</li>
+                        <li>Non Invsive Cardiology</li>
+                        <li>Onco-Surgery</li>
+                        <li>Obstrics & Gynaecology</li>
+                        <li>Orthopedic + Trauma</li>
+                        <li>Opthalmology</li>
+                        <li>Gastroentrology</li>
+                    </div>
+                    <div class="col-12">
+                      <li>Paediatrics Medicine & <span class="ml-sm-4">Surgery</span> </li>
+                      <li>Pathology</li>
+                      <li>Physiotherapy</li>
+                      <li>Plastic Surgery</li>
+                      <li>radiology (Sonography & <span class="ml-sm-4">Digital  X-ray)</span></li>
+                      <li>Respiratory Medicine</li>
+                      <li>Tread Mil Test (TMT)</li>
+                      <li>Urology</li>
+                      <li>Vaccination Facility</li>
+                  </div>
+                </div>
+                <div class="row heading pt-4"></div>
+            </div>
+        </div>
+     </div>
+
+     <!------------------------------- FOOTER ----------------------------------------->
+     <div class="mt-5 pt-5 pb-5 footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 about-company">
+                    <h4>LOGO</h4>
+                    <p class="pr-5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
+                        ante mollis quam tristique convallis </p>
+                    <p>
+                    </p>
+                </div>
+                <div class="col-lg-2 col-6 links">
+                    <h4 class="mt-lg-0 mt-sm-3">Links</h4>
+                    <ul class="m-0 p-0">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Services Offered</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-6 services">
+                  <h4 class="mt-lg-0 mt-sm-3">Services</h4>
+                  <ul class="m-0 p-0">
+                      <li><a href="#">General medicine</a></li>
+                      <li><a href="#">ENT</a></li>
+                      <li><a href="#">Anthroscopy</a></li>
+                      <li><a href="#">Dentistry</a></li>
+                      <li><a href="#">Urology</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-sm-12 location">
+                    <h4 class="mt-lg-0 mt-sm-4">Location</h4>
+                    <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
+                    <p class="mb-0"><i class="fa fa-phone mr-3"></i><a href="" class="phone">(541) 754-3010</a></p>
+                    <p><i class="fa fa-envelope mr-3"></i><a href="" class="email">info@hsdf.com</a></p>
+                </div>
+               
+            </div>
+            <div class="row mt-5">
+                <div class="col copyright">
+                    <p class=""><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+            <!----------------------------------- testimonial ----------------------------------->
+    <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+        <script>
+
+            /*======================= NAV ============================*/
+            (function ($) {
+                "use strict";
+
+                $(function () {
+                    var header = $(".start-style");
+                    $(window).scroll(function () {
+                        var scroll = $(window).scrollTop();
+
+                        if (scroll >= 10) {
+                            header.removeClass('start-style').addClass("scroll-on");
+                        } else {
+                            header.removeClass("scroll-on").addClass('start-style');
+                        }
+                    });
+                });
+
+                Animation
+                //==============================NAV DROPDOWNS ON HOVER=======================
+                $('body').on('mouseenter mouseleave', '.nav-item', function (e) {
+                    if ($(window).width() > 750) {
+                        var _d = $(e.target).closest('.nav-item'); _d.addClass('show');
+                        setTimeout(function () {
+                            _d[_d.is(':hover') ? 'addClass' : 'removeClass']('show');
+                        }, 1);
+                    }
+                });
+            })(jQuery);
+
+            // =============================DOCTOR============================
+        $("#carouselExampleControls").attr("data-interval", "2000");
+
+$("#carouselExampleControlsSmallScreen").attr("data-interval", "1000");
+
+// =============================TESTIMONIAL=============================================
+        $(document).ready(function () {
+
+            $("#testimonial-slider").owlCarousel({
+
+                items: 2,
+
+                itemsDesktop: [1000, 2],
+
+                itemsDesktopSmall: [979, 2],
+
+                itemsTablet: [768, 1],
+
+                pagination: true,
+
+                navigation: false,
+
+                slideSpeed: 1000,
+
+                singleItem: false,
+
+                navigationText: ["", ""],
+
+                autoPlay: true
+
+            });
+
+        });
+        </script>
+</body>
+
+</html>

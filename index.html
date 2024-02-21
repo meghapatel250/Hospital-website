@@ -1,0 +1,2111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>New Index</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Testimonial -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext');
+        /*=====================PRIMARY============================= */
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #212112;
+            background-position: center;
+            background-repeat: repeat;
+            background-size: 7%;
+            background-color: #fff;
+            overflow-x: hidden;
+            transition: all 200ms linear;
+        }
+
+        ::selection {
+            color: #fff;
+            background-color: #90ee90;
+        }
+
+        ::-moz-selection {
+            color: #fff;
+            background-color: #90ee90;
+        }
+
+        /*===================== TOP DIV ============================= */
+        #top-div {
+            background-color: #F0EAE1;
+            margin-top: -20px;
+        }
+
+        .top-menu.container {
+            padding-left: 100px;
+        }
+
+        .top-menu .row a {
+            color: black;
+            font-size: 12px;
+        }
+
+        @media (max-width:700px) {
+            .top-menu.container {
+                padding-left: 30px;
+            }
+        }
+
+
+        /*===================== Navigation ============================= */
+        .navigation-wrap .navigation-wrap .navbar {
+            right: 10%;
+        }
+
+        .start-header {
+            opacity: 1;
+            transform: translateY(0);
+            padding: 20px 0;
+            background-color: #5DB0C1;
+            box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
+            -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+        }
+
+        .start-header.scroll-on {
+            box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
+            padding-bottom: 20px;
+            padding-top: 0;
+            -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+
+        }
+
+        .start-header .navbar-brand img {
+            margin-left: 150px;
+        }
+
+        .start-header.scroll-on .navbar-brand img {
+            height: 24px;
+            -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+        }
+
+        .navigation-wrap {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+            background-color: #0B2541;
+        }
+
+        .navigation-wrap .navbar {
+            padding: 0;
+        }
+
+        .navigation-wrap .navbar-brand img {
+            height: 28px;
+            width: auto;
+            display: block;
+            filter: brightness(10%);
+            -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+        }
+
+        .navigation-wrap .navbar-toggler {
+            float: right;
+            border: none;
+            padding-right: 0;
+        }
+
+        .navigation-wrap .navbar-toggler:active,
+        .navigation-wrap .navbar-toggler:focus {
+            outline: none;
+        }
+
+        .navigation-wrap .navbar-light .navbar-toggler-icon {
+            width: 24px;
+            height: 17px;
+            background-image: none;
+            position: relative;
+            border-bottom: 1px solid #F0EAE1;
+            transition: all 300ms linear;
+        }
+
+        .navigation-wrap .navbar-light .navbar-toggler-icon:after,
+        .navigation-wrap .navbar-light .navbar-toggler-icon:before {
+            width: 24px;
+            position: absolute;
+            height: 1px;
+            background-color: #F0EAE1;
+            top: 0;
+            left: 0;
+            content: '';
+            z-index: 2;
+            transition: all 300ms linear;
+        }
+
+        .navigation-wrap .navbar-light .navbar-toggler-icon:after {
+            top: 8px;
+        }
+
+        .navigation-wrap .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+            transform: rotate(45deg);
+        }
+
+        .navigation-wrap .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+            transform: translateY(8px) rotate(-45deg);
+        }
+
+        .navigation-wrap .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+            border-color: transparent;
+        }
+
+        .navigation-wrap .nav-link {
+            color:  #F0EAE1 !important;
+            font-weight: 500;
+            transition: all 200ms linear;
+        }
+
+        .navigation-wrap .nav-item:hover .nav-link {
+            color: #EE7F52 !important;
+        }
+
+        .navigation-wrap .nav-item.active .nav-link {
+            color: #EE7F52 !important;
+        }
+
+        .navigation-wrap .nav-link {
+            position: relative;
+            padding: 5px 0 !important;
+            display: inline-block;
+        }
+
+        .navigation-wrap .nav-item:after {
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            content: '';
+            background-color: #EE7F52;
+            opacity: 0;
+            transition: all 200ms linear;
+        }
+
+        .navigation-wrap .nav-item:hover:after {
+            bottom: 0;
+            opacity: 1;
+        }
+
+        .navigation-wrap .nav-item.active:hover:after {
+            opacity: 0;
+        }
+
+        .navigation-wrap .nav-item {
+            position: relative;
+            transition: all 200ms linear;
+        }
+
+        .navigation-wrap h1 {
+            font-size: 48px;
+            line-height: 1.2;
+            font-weight: 700;
+            color: #28645f;
+            text-align: center;
+        }
+
+        .navigation-wrap p {
+            text-align: center;
+            margin: 0;
+            padding-top: 10px;
+            opacity: 1;
+        }
+
+        .navigation-wrap h1 span {
+            display: inline-block;
+            transition: all 300ms linear;
+            opacity: 1;
+            transform: translate(0);
+        }
+
+        .navigation-wrap .nav-item .dropdown-menu {
+            transform: translate3d(0, 10px, 0);
+            visibility: hidden;
+            opacity: 0;
+            max-height: 0;
+            display: block;
+            padding: 0;
+            margin: 0;
+            left: -150px;
+            transition: all 200ms linear;
+        }
+
+
+        .navigation-wrap .nav-item.show .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+            max-height: 1200px;
+            width: 650px;
+            transform: translate3d(0, 0px, 0);
+        }
+
+        .navigation-wrap .nav-item.show .dropdown-menu .row {
+            display: flex;
+        }
+
+        .navigation-wrap .dropdown-menu {
+            padding: 10px !important;
+            margin: 0;
+            font-size: 13px;
+            letter-spacing: 0px;
+            color: #212121;
+            background-color: #fcfaff;
+            border: none;
+            border-radius: 3px;
+            box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
+            transition: all 200ms linear;
+        }
+
+
+        .navigation-wrap .dropdown-item {
+            padding: 3px 7px;
+            margin: 5px 0;
+            color: #212121;
+            border-radius: 2px;
+            transition: all 200ms linear;
+        }
+
+        .navigation-wrap .dropdown-item:hover,
+        .navigation-wrap .dropdown-item:focus {
+            color: #fff;
+            background-color: #EE7F52;
+        }
+
+
+        /*======================== Media ========================= */
+        @media (max-width: 332px) and (min-width: 200px) {
+            .navigation-wrap .navbar-light .navbar-toggler-icon {
+                margin-right: 40px;
+            }
+        }
+
+        @media (max-width: 378px) and (min-width: 332px) {
+            .navigation-wrap .navbar-light .navbar-toggler-icon {
+                margin-right: 20px;
+            }
+        }
+
+        @media (max-width: 579px) and (min-width: 378px) {
+            .navigation-wrap .navbar-light .navbar-toggler-icon {
+                margin-right: 20px;
+            }
+        }
+
+
+        @media (max-width: 767px) {
+
+            .navigation-wrap .dropdown-item {
+            color: #F0EAE1;
+        }
+
+            .navigation-wrap .dropdown-item:hover,
+            .navigation-wrap .dropdown-item:focus {
+                width: 200px;
+            }
+
+            .navigation-wrap .dropdown-menu,
+            .navigation-wrap .dropdown-item {
+                transition: none;
+            }
+
+            .navigation-wrap .nav-item.show .dropdown-menu .row {
+                flex-direction: row;
+            }
+
+            .navigation-wrap .navbar-brand img {
+                margin-left: 10px;
+            }
+
+            .navigation-wrap h1 {
+                font-size: 38px;
+            }
+
+            .navigation-wrap .nav-item:after {
+                display: none;
+            }
+
+            .navigation-wrap .nav-item::before {
+                position: absolute;
+                display: block;
+                top: 15px;
+                left: 0;
+                width: 11px;
+                height: 1px;
+                content: "";
+                border: none;
+                background-color: #F0EAE1;
+            }
+
+            .navigation-wrap .dropdown-toggle::after {
+                position: absolute;
+                display: block;
+                top: 10px;
+                left: -23px;
+                width: 1px;
+                height: 11px;
+                content: "";
+                border: none;
+                background-color: #F0EAE1;
+                transition: all 200ms linear;
+            }
+
+            .navigation-wrap .dropdown-toggle[aria-expanded="true"]::after {
+                transform: rotate(90deg);
+                opacity: 0;
+            }
+
+            .navigation-wrap .dropdown-menu {
+                padding: 0 !important;
+                background-color: transparent;
+                box-shadow: none;
+                transition: all 200ms linear;
+            }
+
+            .navigation-wrap .dropdown-toggle[aria-expanded="true"]+.dropdown-menu {
+                margin-top: 10px !important;
+                margin-bottom: 20px !important;
+            }
+
+            .navigation-wrap .dark .nav-item::before {
+                background-color: #fff;
+            }
+
+            .navigation-wrap .dark .dropdown-toggle::after {
+                background-color: #fff;
+            }
+
+            .navigation-wrap .dark .dropdown-menu {
+                background-color: transparent;
+                box-shadow: none;
+            }
+        }
+
+        @media (max-width: 800px) {
+            .navigation-wrap .navbar {
+                right: 0;
+            }
+        }
+
+        /* ==========================CAROUSEL=================================== */
+        #carousel-main-div {}
+
+        #carousel-main-div .carousel .carousel-item {
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #carousel-main-div .carousel .carousel-item:first-of-type {
+            background-image: url("https://img.freepik.com/premium-photo/close-up-doctor-use-phone-copy-space-left_28629-557.jpg?size=626&ext=jpg");
+        }
+
+        #carousel-main-div .carousel .carousel-item:nth-of-type(2) {
+            background-image: url("https://img.freepik.com/free-photo/young-doctor-supporting-his-patient_1098-2237.jpg?size=626&ext=jpg&ga=GA1.2.2031644658.1674562410&semt=sph");
+        }
+
+        #carousel-main-div .carousel .carousel-item:last-of-type {
+            background-image: url("https://img.freepik.com/free-photo/young-handsome-physician-medical-robe-with-stethoscope_1303-17818.jpg?w=740&t=st=1680255713~exp=1680256313~hmac=1f4add3675552734ba8b62ccbf48a8e0e63a7bc940db78c3f2eee88c9819529d");
+        }
+
+        #carousel-main-div .carousel-control-prev-icon,
+        #carousel-main-div .carousel-control-next-icon {
+            width: 50px;
+            height: 50px;
+            color: #000;
+        }
+
+        /* =========================ABOUT US=================================== */
+
+        #about-us-div a,
+        #about-us-div a:hover,
+        #about-us-div a:focus,
+        #about-us-div a:active {
+            text-decoration: none;
+            outline: none;
+        }
+
+        #about-us-div img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #about-us-div section {
+            padding: 0;
+        }
+
+        #about-us-div .sec-title {
+            position: relative;
+            z-index: 1;
+            margin-bottom: 0;
+        }
+
+        #about-us-div .sec-title .title {
+            position: relative;
+            display: block;
+            font-size: 18px;
+            line-height: 24px;
+            color: #EE7F52;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+
+        #about-us-div .sec-title h2 {
+            position: relative;
+            display: block;
+            font-size: 40px;
+            line-height: 1.28em;
+            color: #222222;
+            font-weight: 600;
+            padding-bottom: 7px;
+        }
+
+        #about-us-div .sec-title h2:before {
+            position: absolute;
+            content: '';
+            left: 0px;
+            bottom: 0px;
+            width: 200px;
+            height: 3px;
+            background-color: #EE7F52;
+        }
+
+        #about-us-div .sec-title.light h2 {
+            color: #ffffff;
+        }
+
+        #about-us-div .sec-title.text-center h2:before {
+            left: 50%;
+            margin-left: -25px;
+        }
+
+        #about-us-div .btn-style-one {
+            position: relative;
+            display: inline-block;
+            font-size: 17px;
+            line-height: 28px;
+            color: #ffffff;
+            padding: 10px 30px;
+            font-weight: 600;
+            overflow: hidden;
+            letter-spacing: 0.02em;
+            border: 1px solid #EE7F52;
+            background-color: #EE7F52;
+
+        }
+
+        #about-us-div .btn-style-one:hover {
+            border: 1px solid #EE7F52;
+            background-color: transparent;
+            color: #EE7F52;
+        }
+
+        #about-us-div .btn-style-two {
+            position: relative;
+            display: inline-block;
+            font-size: 17px;
+            line-height: 28px;
+            color: #EE7F52;
+            padding: 8px 30px;
+            font-weight: 600;
+            overflow: hidden;
+            letter-spacing: 0.02em;
+            border: 1px solid #EE7F52;
+        }
+
+        #about-us-div .btn-style-two:hover {
+            background-color: #EE7F52;
+            color: #ffffff;
+        }
+
+        #about-us-div .about-section {
+            position: relative;
+            padding: 110px 0 70px;
+        }
+
+        #about-us-div .about-section .sec-title {
+            margin-bottom: 20px;
+        }
+
+        #about-us-div .about-section .content-column {
+            position: relative;
+            margin-bottom: 50px;
+        }
+
+        #about-us-div .about-section .content-column .inner-column {
+            position: relative;
+            padding-left: 30px;
+        }
+
+        #about-us-div .about-section .content-column .inner-column h5 {
+            color: #EE7F52;
+            font-weight: 600;
+        }
+
+        #about-us-div .about-section .content-column .inner-column li {
+            list-style-type: none;
+            font-size: 13px;
+        }
+
+        #about-us-div .about-section .content-column .inner-column li::before {
+            content: "\f061";
+            font-family: fontawesome;
+            text-align: center;
+            padding: 3px;
+            margin: auto 5px;
+            color: white;
+            font-size: 10px;
+            background-color: #EE7F52;
+            border-radius: 50%;
+        }
+
+        #about-us-div .about-section .text {
+            margin-bottom: 20px;
+            font-size: 16px;
+            line-height: 26px;
+            color: #848484;
+            font-weight: 400;
+        }
+
+        #about-us-div .about-section .btn-box {
+            position: relative;
+        }
+
+        #about-us-div .about-section .btn-box a {
+            padding: 15px 50px;
+        }
+
+        #about-us-div .about-section .image-column {
+            position: relative;
+        }
+
+        #about-us-div .about-section .image-column .text-layer {
+            position: absolute;
+            right: -110px;
+            top: 50%;
+            font-size: 325px;
+            line-height: 1em;
+            color: #ffffff;
+            margin-top: -175px;
+            font-weight: 500;
+        }
+
+        #about-us-div .about-section .image-column .inner-column {
+            position: relative;
+            padding-left: 80px;
+            padding-bottom: 0px;
+        }
+
+        #about-us-div .about-section .image-column .inner-column .author-desc {
+            position: absolute;
+            bottom: 16px;
+            z-index: 1;
+            background: orange;
+            padding: 10px 15px;
+            left: 96px;
+            width: calc(100% - 152px);
+            border-radius: 50px;
+        }
+
+        #about-us-div .about-section .image-column .inner-column .author-desc h2 {
+            font-size: 21px;
+            letter-spacing: 1px;
+            text-align: center;
+            color: #fff;
+            margin: 0;
+        }
+
+        #about-us-div .about-section .image-column .inner-column .author-desc span {
+            font-size: 16px;
+            letter-spacing: 6px;
+            text-align: center;
+            color: #fff;
+            display: block;
+            font-weight: 400;
+        }
+
+        #about-us-div .about-section .image-column .inner-column:before {
+            content: '';
+            position: absolute;
+            width: calc(50% + 80px);
+            height: calc(100% + 160px);
+            top: -70px;
+            left: -10px;
+            background: transparent;
+            z-index: 0;
+            border: 24px solid #EE7F52;
+        }
+
+        #about-us-div .about-section .image-column .image-1 {
+            position: relative;
+        }
+
+        #about-us-div .about-section .image-column .image-1 img {
+            box-shadow: 0 30px 50px rgba(8, 13, 62, .15);
+            border-radius: 46px;
+            height: 500px;
+            width: 400px;
+            object-fit: cover;
+        }
+
+
+
+        /* ========================= FEATURES  =================================== */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+        #features-div .container {
+            padding: 0 0 15px 0;
+        }
+
+        #features-div .row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 90px;
+        }
+
+        #features-div .service {
+            text-align: center;
+            padding: 15px 7px;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+            background: transparent;
+            transition: transform 0.5s, background 0.5s;
+        }
+
+        #features-div .service i {
+            font-size: 40px;
+            margin-bottom: 10px;
+            color: #EE7F52;
+        }
+
+        #features-div .service h2 {
+            font-weight: 600;
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+
+        #features-div .service:hover {
+            background: #EE7F52;
+            background-image: linear-gradient(315deg, #dae4e6 14%, #EE7F52 44%);
+            color: #fff;
+            transform: scale(1.05);
+        }
+
+        #features-div .service:hover i {
+            color: #fff;
+        }
+
+        @media (max-width:1000px) {
+            #features-div .row .service {
+                margin: 0 40px;
+            }
+
+            #features-div .service{
+                background: #EE7F52;
+                background-image: linear-gradient(315deg, #dae4e6 14%, #EE7F52 44%);
+                color: #fff;
+                transform: scale(1.05);
+            }
+            #features-div .service i {
+            color: white;
+        }
+        }
+
+
+        /*========================== DOCTOR ================================ */
+        #doctor h2 {
+            margin-top: 40px;
+            color: #333333;
+            font-size: 25px;
+            font-weight: 700;
+            letter-spacing: 1.8px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        #doctor .brand_border {
+            text-align: center;
+        }
+
+        #doctor .brand_border .fa.fa-minus {
+            color: #fff;
+            font-size: 8px;
+            height: 2px;
+            background: #EE7F52 none repeat scroll 0 0;
+            width: 100px;
+        }
+
+        #doctor .brand_border .fas.fa-handshake {
+            font-size: 14px;
+            color: #000000;
+        }
+
+        #doctor .card {
+            border: none;
+            border-radius: 0;
+            box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+        }
+
+        #doctor .carousel-inner {
+            padding: 1em;
+        }
+
+        #doctor .carousel-control-prev,
+        #doctor .carousel-control-next {
+            background-color: #3a3737;
+            width: 5vh;
+            height: 5vh;
+            border-radius: 50%;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        #doctor .carousel-control-prev span,
+        .carousel-control-next span {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+
+        @media screen and (min-width: 577px) {
+            #doctor .cards-wrapper {
+                display: flex;
+            }
+
+            #doctor .card {
+                margin: 0 .5em;
+                width: calc(100%/4);
+            }
+
+            #doctor .image-wrapper {
+                height: 22vw;
+                margin: 0 auto;
+            }
+
+            #doctor .image-wrapper img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        @media screen and (max-width: 576px) {
+            #doctor .card:not(:first-child) {
+                display: none;
+            }
+        }
+
+        /* ============================GLIMPSE===================================== */
+        #glimpse-div section {
+            margin-top: 20px;
+            padding: 40px 0;
+        }
+
+        #glimpse-div {
+            background-image: linear-gradient(315deg, #5DB0C1 0%, #F0EAE1 74%);
+        }
+
+        #glimpse-div #service .single_service {
+            padding: 10px;
+        }
+
+        #glimpse-div #service .icon {
+            border-radius: 5%;
+            color: black;
+            font-size: 45px;
+            line-height: 65px;
+            overflow: hidden;
+            text-align: center;
+            text-decoration: none;
+            width: 70px;
+        }
+
+        @media only screen and (max-width: 350px) {
+
+            #glimpse-div #service .single_service {
+                padding: 0;
+            }
+
+            #glimpse-div #service .icon {
+                width: 40px;
+                font-size: 30px;
+            }
+        }
+
+        #glimpse-div #service .single_service .single_service-left {
+            padding-right: 2px;
+        }
+
+        #glimpse-div .single_service-heading {
+            margin-top: 20px;
+            font-size: 15px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: black;
+        }
+
+        #glimpse-div .single_service-left {
+            display: table-cell;
+            vertical-align: top;
+        }
+
+        #glimpse-div .single_service-body {
+            color: black;
+            display: table-cell;
+        }
+
+        #glimpse-div .hvr-curl-top-right {
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: perspective(1px) translateZ(0);
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 0 0 1px transparent;
+            position: relative;
+        }
+
+        /*===============================TESTIMONIALS================================= */
+        #testimonial-div h2 {
+            color: #333333;
+            font-size: 25px;
+            font-weight: 700;
+            letter-spacing: 1.8px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        #testimonial-div .brand_border {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        #testimonial-div .brand_border .fa.fa-minus {
+            color: #fff;
+            font-size: 8px;
+            height: 2px;
+            background: #EE7F52 none repeat scroll 0 0;
+            width: 100px;
+        }
+
+        #testimonial-div .brand_border .fas.fa-handshake {
+            font-size: 14px;
+            color: #000000;
+        }
+
+        #testimonial-div {
+            margin-top: 30px !important;
+        }
+
+        #testimonial-div h3,
+        #testimonial-div p {
+            margin: 0;
+        }
+
+        #testimonial-div a:hover,
+        #testimonial-div a:focus {
+            text-decoration: none !important;
+        }
+
+        #testimonial-div .testimonial {
+            margin: 30px 50px;
+            background-color: #fff;
+            color: gray;
+            text-align: center;
+        }
+
+        #testimonial-div .testimonial .testimonial-content {
+            padding: 10px 30px 10px;
+            border-top: 1px solid #EE7F52;
+            border-left: 1px solid #EE7F52;
+            position: relative;
+            margin-bottom: 50px;
+            font-size: 15px;
+            line-height: 30px;
+            text-align: left;
+        }
+
+        #testimonial-div .testimonial .testimonial-content:before {
+            content: "\f10e";
+            font-family: "fontawesome";
+            float: left;
+            display: inline-block;
+            padding: 0 15px 5px 0;
+            font-size: 30px;
+            text-align: center;
+            position: relative;
+            top: 12px;
+            left: 0px;
+        }
+
+        #testimonial-div .testimonial .testimonial-content:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50%;
+            height: 1px;
+            background-color: #EE7F52;
+        }
+
+        #testimonial-div .testimonial .testimonial-info {
+            position: relative;
+        }
+
+        #testimonial-div .testimonial .testimonial-info:before {
+            content: "";
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            background-color: #EE7F52;
+            ;
+            width: 1px;
+            height: 20px;
+        }
+
+        #testimonial-div .testimonial .testimonial-info:after {
+            content: "";
+            position: absolute;
+            top: -70px;
+            left: 50%;
+            background-color: #EE7F52;
+            width: 2px;
+            height: 40px;
+            transform: skewX(-45deg);
+            transform-origin: 100% 100% 0;
+        }
+
+        #testimonial-div .testimonial .pic {
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 7px;
+        }
+
+        #testimonial-div .testimonial .pic img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+
+        #testimonial-div .testimonial .testimonial-title {
+            display: inline-block;
+        }
+
+        #testimonial-div .testimonial .testimonial-title a {
+            display: block;
+            color: #EE7F52;
+            font-size: 22px;
+            text-transform: capitalize;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        #testimonial-div .owl-theme .owl-controls {
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+
+        #testimonial-div .owl-theme .owl-controls .owl-page span {
+            height: 15px;
+            width: 15px;
+            background-color: #A58E38;
+            opacity: 0.8;
+            border-radius: 0;
+            transform: rotate(45deg) !important;
+        }
+
+        #testimonial-div .owl-theme .owl-controls .owl-page.active span,
+        #testimonial-div .owl-theme .owl-controls.clickable .owl-page:hover span {
+            background-color: #254240;
+        }
+
+        /* ============================ OUR BLOG  ============================================ */
+        #our-blog a,
+        #our-blog a:hover,
+        #our-blog a:focus,
+        #our-blog a:active {
+            text-decoration: none;
+            outline: none;
+        }
+
+        #our-blog a,
+        #our-blog a:active,
+        #our-blog a:focus {
+            color: #333;
+            text-decoration: none;
+            transition-timing-function: ease-in-out;
+            -ms-transition-timing-function: ease-in-out;
+            -moz-transition-timing-function: ease-in-out;
+            -webkit-transition-timing-function: ease-in-out;
+            -o-transition-timing-function: ease-in-out;
+            transition-duration: .2s;
+            -ms-transition-duration: .2s;
+            -moz-transition-duration: .2s;
+            -webkit-transition-duration: .2s;
+            -o-transition-duration: .2s;
+        }
+
+        #our-blog h2 {
+            color: #333333;
+            font-size: 25px;
+            font-weight: 700;
+            letter-spacing: 1.8px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        #our-blog .brand_border {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        #our-blog .brand_border .fa.fa-minus {
+            color: #fff;
+            font-size: 8px;
+            height: 2px;
+            background: #EE7F52 none repeat scroll 0 0;
+            width: 100px;
+        }
+
+        #our-blog .brand_border .fas.fa-handshake {
+            font-size: 14px;
+            color: #000000;
+        }
+
+        #our-blog img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #our-blog span,
+        #our-blog a,
+        #our-blog a:hover {
+            display: inline-block;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        #our-blog .news-section {
+            padding: 80px 0 10px 0;
+        }
+
+        #our-blog .news-content {
+            padding: 10px 30px;
+        }
+
+        #our-blog .news-item {
+            box-shadow: 0 0 15px #ededed;
+            -webkit-transition: .5s;
+            -o-transition: .5s;
+            transition: .5s;
+            margin-bottom: 20px;
+        }
+
+        #our-blog .news-item:hover {
+            -webkit-transform: translateY(-10px);
+            -ms-transform: translateY(-10px);
+            transform: translateY(-10px);
+            -webkit-box-shadow: 0px 15px 15px 0px #edeaea;
+            box-shadow: 0px 15px 15px 0px #edeaea;
+        }
+
+        #our-blog .newsimg img {
+            width: 100%;
+        }
+
+        #our-blog .news_postdate {
+            color: #EE7F52;
+        }
+
+        #our-blog .news-content h3 {
+            color: #5DB0C1;
+            font-size: 22px;
+            margin-bottom: 25px;
+        }
+
+        #our-blog .news_authorinfo {
+            border: transparent;
+            padding: 14px 0px 0px 0px;
+            background: transparent;
+            font-size: 14px;
+        }
+
+        #our-blog .news_authorinfo i {
+            margin-right: 6px;
+        }
+
+        #our-blog .news_authorinfo span:last-child {
+            float: right;
+        }
+
+        #our-blog .news_authorinfo a {
+            color: #666;
+        }
+
+        #our-blog .center .news-content {
+            background: linear-gradient(-120deg, #8758ff 0, #614ef9 100%);
+        }
+
+        #our-blog .center .news-content h3,
+        #our-blog .center .news-content p {
+            color: #fff;
+        }
+
+        #our-blog .center .news_authorinfo a,
+        #our-blog .center .news_authorinfo i {
+            color: #fff;
+        }
+
+        #our-blog .news-slide.owl-carousel .col-lg-4 {
+            max-width: 100%;
+            padding: 0;
+        }
+
+        #our-blog .news-section .owl-theme .owl-nav [class*="owl-"] {
+            color: #333;
+            font-size: 14px;
+            margin: 5px;
+            padding: 4px 7px;
+            background: #fff;
+            display: inline-block;
+            cursor: pointer;
+            border-radius: 3px;
+            border: 1px solid #ddd;
+        }
+
+        #our-blog .small-title {
+            font-size: 20px;
+            text-transform: capitalize;
+            color: #EE7F52;
+            margin-bottom: 10px;
+            margin-top: 0px;
+            font-weight: 600;
+        }
+
+        #our-blog .main-title-box {
+            margin-bottom: 30px;
+        }
+
+        /* ============================FOOTER============================================ */
+        .footer {
+            background: #152F4F;
+            color: gray;
+        }
+
+        .footer h4 {
+            color: white;
+        }
+
+        .footer .links ul,
+        .footer .services ul {
+            list-style-type: none;
+        }
+
+        .footer .links li a,
+        .footer .services li a,
+        .footer .location p .phone,
+        .footer .location p .email {
+            color: rgb(202, 196, 196);
+            transition: color 0.2s;
+        }
+
+        .footer .links li a:hover,
+        .footer .services li a:hover,
+        .footer .location p .phone:hover,
+        .footer .location p .email:hover {
+            text-decoration: underline;
+            color: white;
+        }
+
+        .footer .about-company i {
+            font-size: 25px;
+        }
+
+        .footer .about-company a {
+            color: white;
+            transition: color 0.2s;
+        }
+
+        .footer .location i {
+            font-size: 18px;
+        }
+
+        .footer .copyright p {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero-anime">
+        <div class="navigation-wrap start-header start-style">
+            <div id="top-div">
+                <div class="top-menu hide container">
+                    <div class="row">
+                        <div class="col-sm-3  col-6 email"><a href="">example123@gmail.com</a></div>
+                        <div class="col-sm-3  col-6 contact"><a href="">+91 8765745368</a></div>
+                        <div class="col-sm-3  col-6 helpline"><a href="">+91 7456789765</a></div>
+                        <div class="col-sm-3  col-6 location-link"><a href="">Location</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-container container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-md navbar-light">
+                            <a class="navbar-brand" href="" target="_blank"><img src="" alt=""></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto py-4 py-md-0">
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="about-us.html">About Us</a>
+
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="our-team.html">Our Team</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#"
+                                            role="button" aria-haspopup="true" aria-expanded="false">Services
+                                            Offered</a>
+                                        <div class="dropdown-menu">
+                                            <div class="row d-inline-block d-sm-flex">
+                                                <div class="col-4">
+                                                    <a class="dropdown-item"
+                                                        href="services-general-medicine.html">General Medicine</a>
+                                                    <a class="dropdown-item"
+                                                        href="services-general-surgery.html">General Surgery</a>
+                                                    <a class="dropdown-item"
+                                                        href="services-arthroscopy.html">Arthroscopy</a>
+                                                    <a class="dropdown-item"
+                                                        href="services-non-invasive-cardiology.html">Non Invasive
+                                                        Cardiology</a>
+                                                    <a class="dropdown-item"
+                                                        href="services-dentistry.html">Dentistry</a>
+                                                </div>
+                                                <div class="col-4">
+                                                    <a class="dropdown-item" href="services-ent.html">ENT</a>
+                                                    <a class="dropdown-item"
+                                                        href="services-laparoscopic-surgery.html">Laparoscopic
+                                                        Surgery</a>
+                                                    <a class="dropdown-item"
+                                                        href="services-obstetrics-gynaecology.html">Obstetrics &
+                                                        Gynaecology</a>
+                                                    <a class="dropdown-item"
+                                                        href="services-ophthalmology.html">Opthalmology</a>
+                                                    <a class="dropdown-item"
+                                                        href="services-paediatrics.html">Paediatrics</a>
+                                                </div>
+                                                <div class="col-4">
+                                                    <a class="dropdown-item"
+                                                        href="services-paed-surgery.html">Paediatrics surgery</a>
+                                                    <a class="dropdown-item"
+                                                        href="services-physiotherapy.html">Physiotherapy</a>
+                                                    <a class="dropdown-item" href="#">Surgical Gastroenterology</a>
+                                                    <a class="dropdown-item"
+                                                        href="services-surgical-oncology.html">Surgical Oncology</a>
+                                                    <a class="dropdown-item" href="services-urology.html">Urology</a>
+                                                    <a class="dropdown-item" href="#">Inverstigation</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="empanelment.html">Empanelment</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="gallery-new.html">Gallery</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="contact.html">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------------------------------- CAROUSEL ----------------------------------------->
+        <div id="carousel-main-div">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active"></div>
+                    <div id="target" class="carousel-item"></div>
+                    <div class="carousel-item"></div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <!------------------------------- ABOUT US ----------------------------------------->
+        <div id="about-us-div">
+            <section class="about-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="content-column col-lg-7 col-md-12 col-sm-12 order-2">
+                            <div class="inner-column">
+                                <div class="sec-title">
+                                    <span class="title">About Us</span>
+                                    <h2>We are working since 2015</h2>
+                                </div>
+                                <div class="text">"Shakuntala Devi Hospital & Research Centre, a unit of Rachna Hospital Private Limited, was established in the year 2002. For more than 20 years, we are dedicated in providing best health care services in the city of Indore and in surrounding areas"</div>
+                                <h5>Facilities</h5>
+                                <div class="row d-flex mt-3 mb-3">
+                                    <div class="col-4">
+                                        <li>Anaesthesiology</li>
+                                        <li>Anthroscopy & Sports <span class="ml-4">Medicine</span> & Surgery</li>
+                                        <li>Critical Care Units (ICU, <span class="ml-4">PICU,</span> NICU)</li>
+                                        <li>Dental Clinic</li>
+                                        <li>ENT Facilities</li>
+                                        <li>Endoscopy</li>
+                                        <li>2D Echo</li>
+                                        <li>family Physician</li>
+                                    </div>
+                                    <div class="col-4">
+                                        <li>General Surgery</li>
+                                        <li>G.I. Surgery</li>
+                                        <li>Medicine</li>
+                                        <li>Neurology</li>
+                                        <li>Non Invsive Cardiology</li>
+                                        <li>Onco-Surgery</li>
+                                        <li>Obstrics & Gynaecology</li>
+                                        <li>Orthopedic + Trauma</li>
+                                        <li>Opthalmology</li>
+                                        <li>Gastroentrology</li>
+                                    </div>
+                                    <div class="col-4">
+                                        <li>Paediatrics Medicine & <span class="ml-4">Surgery</span></li>
+                                        <li>Pathology</li>
+                                        <li>Physiotherapy</li>
+                                        <li>Plastic Surgery</li>
+                                        <li>radiology (Sonography <span class="ml-4"> & Digital</span> X-ray)</li>
+                                        <li>Respiratory Medicine</li>
+                                        <li>tread Mil Test (TMT)</li>
+                                        <li>Urology</li>
+                                        <li>Vaccination Facility</li>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="#" class="theme-btn btn-style-one">Contact Us</a>
+                                    <a href="#" class="theme-btn btn-style-two">Know More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Image Column -->
+                        <div class="image-column col-lg-5 col-md-12 col-sm-12">
+                            <div class="inner-column wow fadeInLeft">
+                                <div class="author-desc">
+                                    <h2>Shakuntala Devi Hospital</h2>
+                                    <span>CITY</span>
+                                </div>
+                                <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img
+                                            title="Shakuntala Devi Hospital"
+                                            src="https://t4.ftcdn.net/jpg/00/43/87/71/240_F_43877143_0mHqhaRh36mrEI7u5Y5wEVcFJRiYpiSf.jpg"
+                                            alt=""></a></figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!---------------------------------- FEATURES ---------------------------------------->
+        <div id="features-div">
+            <div class="container">
+                <div class="row">
+                    <div class="service">
+                        <i class="fas fa-clock"></i>
+                        <h2>24 Hrs Availability</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
+                            quae?
+                        </p>
+                    </div>
+                    <div class="service">
+                        <i class="fas fa-truck-medical"></i>
+                        <h2>Ambulance Service</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
+                            quae?
+                        </p>
+                    </div>
+                    <div class="service">
+                        <i class="fa fa-pills"></i>
+                        <h2>Medical Available</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
+                            quae?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------------------------------- DOCTOR  ----------------------------------------->
+        <div id="doctor">
+            <h2>Our Team</h2>
+            <div class="brand_border">
+                <i class="fa fa-minus" aria-hidden="true"></i>
+                <i class="fas fa-handshake"></i>
+                <i class="fa fa-minus" aria-hidden="true"></i>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide d-none d-sm-block" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="cards-wrapper">
+                            <!-- first card -->
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="https://img.freepik.com/free-photo/woman-doctor-wearing-lab-coat-with-stethoscope-isolated_1303-29791.jpg?size=626&ext=jpg&ga=GA1.2.2031644658.1674562410&semt=sph"
+                                        alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Dr Jones</h5>
+                                    <p class="card-text">Neurologist, MD</p>
+
+                                </div>
+                            </div>
+                            <!-- second card -->
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="https://img.freepik.com/free-photo/woman-doctor-wearing-lab-coat-with-stethoscope-isolated_1303-29791.jpg?size=626&ext=jpg&ga=GA1.2.2031644658.1674562410&semt=sph"
+                                        alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Dr Jones</h5>
+                                    <p class="card-text">Neurologist, MD</p>
+
+                                </div>
+                            </div>
+                            <!-- third card -->
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="https://img.freepik.com/free-photo/woman-doctor-wearing-lab-coat-with-stethoscope-isolated_1303-29791.jpg?size=626&ext=jpg&ga=GA1.2.2031644658.1674562410&semt=sph"
+                                        alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Dr Jones</h5>
+                                    <p class="card-text">Neurologist, MD</p>
+
+                                </div>
+                            </div>
+                            <!-- fourth card -->
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="https://img.freepik.com/free-photo/woman-doctor-wearing-lab-coat-with-stethoscope-isolated_1303-29791.jpg?size=626&ext=jpg&ga=GA1.2.2031644658.1674562410&semt=sph"
+                                        alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Dr Jones</h5>
+                                    <p class="card-text">Neurologist, MD</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- second slide -->
+                    <div class="carousel-item">
+                        <div class="cards-wrapper">
+                            <!-- first card -->
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="https://img.freepik.com/premium-photo/covid-19-coronavirus-outbreak-healthcare-workers-pandemic-concept_1258-19738.jpg?size=626&ext=jpg"
+                                        alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Dr Jones</h5>
+                                    <p class="card-text">Neurologist, MD</p>
+
+                                </div>
+                            </div>
+                            <!-- second card -->
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="https://img.freepik.com/premium-photo/covid-19-coronavirus-outbreak-healthcare-workers-pandemic-concept_1258-19738.jpg?size=626&ext=jpg"
+                                        alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Dr Jones</h5>
+                                    <p class="card-text">Neurologist, MD</p>
+
+                                </div>
+                            </div>
+                            <!-- third card -->
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="https://img.freepik.com/premium-photo/covid-19-coronavirus-outbreak-healthcare-workers-pandemic-concept_1258-19738.jpg?size=626&ext=jpg"
+                                        alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Dr Jones</h5>
+                                    <p class="card-text">Neurologist, MD</p>
+
+                                </div>
+                            </div>
+                            <!-- fourth card -->
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="https://img.freepik.com/free-photo/woman-doctor-wearing-lab-coat-with-stethoscope-isolated_1303-29791.jpg?size=626&ext=jpg&ga=GA1.2.2031644658.1674562410&semt=sph"
+                                        alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Dr Jones</h5>
+                                    <p class="card-text">Neurologist, MD</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- third slide -->
+                    <div class="carousel-item">
+                        <div class="cards-wrapper">
+                            <!-- first card -->
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="https://img.freepik.com/free-photo/tired-young-female-doctor-wearing-medical-robe-stethoscope-with-closed-eyes-isolated-white-wall-with-copy-space_141793-79210.jpg?size=626&ext=jpg"
+                                        alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Dr Jones</h5>
+                                    <p class="card-text">Neurologist, MD</p>
+                                </div>
+                            </div>
+                            <!-- second card -->
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="https://img.freepik.com/free-photo/tired-young-female-doctor-wearing-medical-robe-stethoscope-with-closed-eyes-isolated-white-wall-with-copy-space_141793-79210.jpg?size=626&ext=jpg"
+                                        alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Dr Jones</h5>
+                                    <p class="card-text">Neurologist, MD</p>
+                                </div>
+                            </div>
+                            <!-- third card -->
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="https://img.freepik.com/free-photo/tired-young-female-doctor-wearing-medical-robe-stethoscope-with-closed-eyes-isolated-white-wall-with-copy-space_141793-79210.jpg?size=626&ext=jpg"
+                                        alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Dr Jones</h5>
+                                    <p class="card-text">Neurologist, MD</p>
+                                </div>
+                            </div>
+                            <!-- fourth card -->
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <img src="https://img.freepik.com/free-photo/woman-doctor-wearing-lab-coat-with-stethoscope-isolated_1303-29791.jpg?size=626&ext=jpg&ga=GA1.2.2031644658.1674562410&semt=sph"
+                                        alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Dr Jones</h5>
+                                    <p class="card-text">Neurologist, MD</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!-- ============================== FOR SMALLER SCREEN  =============================== -->
+            <div id="carouselExampleControlsSmallScreen" class="carousel slide d-sm-none" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card">
+                            <div class="image-wrapper">
+                                <img src="https://img.freepik.com/free-photo/woman-doctor-wearing-lab-coat-with-stethoscope-isolated_1303-29791.jpg?size=626&ext=jpg&ga=GA1.2.2031644658.1674562410&semt=sph"
+                                    alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Dr Jones</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="image-wrapper">
+                                <img src="https://img.freepik.com/free-photo/woman-doctor-wearing-lab-coat-with-stethoscope-isolated_1303-29791.jpg?size=626&ext=jpg&ga=GA1.2.2031644658.1674562410&semt=sph"
+                                    alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Dr Jones</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="image-wrapper">
+                                <img src="https://img.freepik.com/free-photo/woman-doctor-wearing-lab-coat-with-stethoscope-isolated_1303-29791.jpg?size=626&ext=jpg&ga=GA1.2.2031644658.1674562410&semt=sph"
+                                    alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Dr Jones</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControlsSmallScreen" role="button"
+                    data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControlsSmallScreen" role="button"
+                    data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <!------------------------------- GLIMPSE ----------------------------------------->
+        <div id="glimpse-div">
+            <section id="service">
+                <div class="container">
+                    <div class="row">
+                        <!--START SINGLE SERVICE AREA-->
+                        <div class="col-md-3 col-6">
+                            <div class="single_service hvr-curl-top-right">
+                                <div class="single_service-left">
+                                    <div class="icon">
+                                        <i class="fa fa-bed"></i>
+                                    </div>
+                                </div>
+                                <div class="single_service-body">
+                                    <h4 class="single_service-heading">100+ Beds</h4>
+                                </div>
+                            </div>
+                        </div><!--/END SINGLE SERVICE AREA-->
+                        <!--START SINGLE SERVICE AREA-->
+                        <div class="col-md-3 col-6">
+                            <div class="single_service hvr-curl-top-right">
+                                <div class="single_service-left">
+                                    <div class="icon">
+                                        <i class="fas fa-users"></i>
+                                    </div>
+                                </div>
+                                <div class="single_service-body">
+                                    <h4 class="single_service-heading">10,000 Happy Patients</h4>
+                                </div>
+                            </div>
+                        </div><!--/END SINGLE SERVICE AREA-->
+                        <!--START SINGLE SERVICE AREA-->
+                        <div class="col-md-3 col-6">
+                            <div class="single_service hvr-curl-top-right">
+                                <div class="single_service-left">
+                                    <div class="icon">
+                                        <i class="fas fa-user-doctor"></i>
+                                    </div>
+                                </div>
+                                <div class="single_service-body">
+                                    <h4 class="single_service-heading">100+ Expert Doctors</h4>
+                                </div>
+                            </div>
+                        </div><!--/END SINGLE SERVICE AREA-->
+                        <div class="col-md-3 col-6">
+                            <div class="single_service hvr-curl-top-right">
+                                <div class="single_service-left">
+                                    <div class="icon">
+                                        <i class="fas fa-hospital-user"></i>
+                                    </div>
+                                </div>
+                                <div class="single_service-body">
+                                    <h4 class="single_service-heading">500+ Staff Members</h4>
+                                </div>
+                            </div>
+                        </div><!--/END SINGLE SERVICE AREA-->
+                    </div>
+                </div>
+            </section><!--/END SERVICE AREA-->
+        </div>
+
+
+        <!------------------------------- TESTIMONIALS ----------------------------------------->
+        <div id="testimonial-div">
+            <h2>Our Happy Customers</h2>
+            <div class="brand_border">
+                <i class="fa fa-minus" aria-hidden="true"></i>
+                <i class="fas fa-handshake"></i>
+                <i class="fa fa-minus" aria-hidden="true"></i>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="testimonial-slider" class="owl-carousel">
+                            <div class="testimonial">
+                                <div class="testimonial-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti
+                                        dolor ipsum
+                                        molestias mollitia ut. Aliquam aperiam corporis cumque debitis delectus
+                                        dignissimos.
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    </p>
+                                </div>
+
+                                <div class="testimonial-info">
+                                    <div class="pic">
+                                        <img
+                                            src="https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?w=740&t=st=1681298050~exp=1681298650~hmac=0125e77ccbcf2a04b6bf7a53c8f3b6692da814270b3cdaa065899993757af15c">
+                                    </div>
+                                    <h3 class="testimonial-title">
+                                        <a href="#">krystal</a>
+                                    </h3>
+                                </div>
+                            </div>
+
+                            <div class="testimonial">
+                                <div class="testimonial-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti
+                                        dolor ipsum
+                                        molestias mollitia ut. Aliquam aperiam corporis cumque debitis delectus
+                                        dignissimos.
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    </p>
+                                </div>
+
+                                <div class="testimonial-info">
+                                    <div class="pic">
+                                        <img
+                                            src="https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?w=740&t=st=1681298050~exp=1681298650~hmac=0125e77ccbcf2a04b6bf7a53c8f3b6692da814270b3cdaa065899993757af15c">
+                                    </div>
+                                    <h3 class="testimonial-title">
+                                        <a href="#">Jhonson</a>
+                                    </h3>
+                                </div>
+                            </div>
+
+                            <div class="testimonial">
+
+                                <div class="testimonial-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti
+                                        dolor ipsum
+
+                                        molestias mollitia ut. Aliquam aperiam corporis cumque debitis delectus
+                                        dignissimos.
+
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+                                    </p>
+
+                                </div>
+
+                                <div class="testimonial-info">
+
+                                    <div class="pic">
+
+                                        <img
+                                            src="https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?w=740&t=st=1681298050~exp=1681298650~hmac=0125e77ccbcf2a04b6bf7a53c8f3b6692da814270b3cdaa065899993757af15c">
+
+                                    </div>
+
+                                    <h3 class="testimonial-title">
+
+                                        <a href="#">David </a>
+
+                                        <!-- <small>Web Developer</small>-->
+
+                                    </h3>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!------------------------------- OUR BLOG ----------------------------------------->
+        <div id="our-blog">
+            <section class="news-section">
+                <div class="container">
+                    <div class="main-title-box text-center">
+                        <div class="small-title">News & Blog</div>
+                        <h2> Our Recent Articles</h2>
+                        <div class="brand_border">
+                            <i class="fa fa-minus" aria-hidden="true"></i>
+                            <i class="fas fa-handshake"></i>
+                            <i class="fa fa-minus" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!--Single Blog Start-->
+                        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0ms">
+                            <div class="news-item">
+                                <div class="news_box">
+                                    <div class="newsimg"><img class="img-responsive"
+                                            src="https://img.freepik.com/premium-photo/senior-male-asian-suffering-from-bad-pain-his-chest-heart-attack-home_34263-235.jpg?size=626&ext=jpg&ga=GA1.2.2031644658.1674562410&semt=ais"
+                                            alt=""></div>
+                                    <div class="news-content">
+                                        <div class="news_postdate">
+                                            <span>Jan 03, 2019</span>
+                                        </div>
+                                        <a href="#">
+                                            <h3>Silent Heart Attack</h3>
+                                        </a>
+                                        <p>Lorem ipsum dolor sit amet, cons ectet a ur elit. Vestibulum necod ios suspe
+                                            age a to ndisse cursus mal.</p>
+                                        <div class="news_authorinfo">
+                                            <span><i class="fa fa-user"></i> <a href="">Robert Tylor </a></span>
+                                            <span><i class="fa fa-comment"></i> <a href="">Comments: (2)</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Single Blog End-->
+                        <!--Single Blog Start-->
+                        <div class="col-lg-4 wow fadeInUp" data-wow-delay="400ms">
+                            <div class="news-item active">
+                                <div class="news_box">
+                                    <div class="newsimg"><img class="img-responsive"
+                                            src="https://img.freepik.com/free-photo/hands-patient-suffering-from-psoriasis_23-2149322101.jpg?size=626&ext=jpg&ga=GA1.2.2031644658.1674562410&semt=sph"
+                                            alt=""></div>
+                                    <div class="news-content">
+                                        <div class="news_postdate">
+                                            <span>Nov 05, 2018</span>
+                                        </div>
+                                        <a href="#">
+                                            <h3>Allergy Test</h3>
+                                        </a>
+                                        <p>Lorem ipsum dolor sit amet, cons ectet a ur elit. Vestibulum necod ios suspe
+                                            age a to ndisse cursus mal.</p>
+                                        <div class="news_authorinfo">
+                                            <span><i class="fa fa-user"></i> <a href="">Jessica keri</a></span>
+                                            <span><i class="fa fa-comment"></i> <a href="">Comments: (1)</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Single Blog End-->
+                        <!--Single Blog Start-->
+                        <div class="col-lg-4 wow fadeInUp" data-wow-delay="800ms">
+                            <div class="news-item">
+                                <div class="news_box">
+                                    <div class="newsimg"><img class="img-responsive"
+                                            src="https://img.freepik.com/premium-photo/dialysis-machine-is-working-acting-as-substitute-kidneys-drive-waste-from-body_252731-146.jpg?size=626&ext=jpg&ga=GA1.1.2031644658.1674562410&semt=ais"
+                                            alt=""></div>
+                                    <div class="news-content">
+                                        <div class="news_postdate">
+                                            <span>Dec 22, 2018</span>
+                                        </div>
+                                        <a href="#">
+                                            <h3>ICU</h3>
+                                        </a>
+                                        <p>Lorem ipsum dolor sit amet, cons ectet a ur elit. Vestibulum necod ios suspe
+                                            age a to ndisse cursus mal.</p>
+                                        <div class="news_authorinfo">
+                                            <span><i class="fa fa-user"></i> <a href="">Brandon Auger</a></span>
+                                            <span><i class="fa fa-comment"></i> <a href="">Comments: (2)</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Single Blog End-->
+                    </div>
+                </div>
+        </div>
+
+        <!------------------------------- FOOTER ----------------------------------------->
+        <div class="mt-5 pt-5 pb-5 footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12 about-company">
+                        <h4>LOGO</h4>
+                        <p class="pr-5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
+                            ante mollis quam tristique convallis </p>
+                        <p>
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-6 links">
+                        <h4 class="mt-lg-0 mt-sm-3">Links</h4>
+                        <ul class="m-0 p-0">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Services Offered</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-6 services">
+                        <h4 class="mt-lg-0 mt-sm-3">Services</h4>
+                        <ul class="m-0 p-0">
+                            <li><a href="#">General medicine</a></li>
+                            <li><a href="#">ENT</a></li>
+                            <li><a href="#">Anthroscopy</a></li>
+                            <li><a href="#">Dentistry</a></li>
+                            <li><a href="#">Urology</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 location">
+                        <h4 class="mt-lg-0 mt-sm-4">Location</h4>
+                        <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
+                        <p class="mb-0"><i class="fa fa-phone mr-3"></i><a href="" class="phone">(541) 754-3010</a></p>
+                        <p><i class="fa fa-envelope mr-3"></i><a href="" class="email">info@hsdf.com</a></p>
+                    </div>
+
+                </div>
+                <div class="row mt-5">
+                    <div class="col copyright">
+                        <p class=""><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!----------------------------------- testimonial ----------------------------------->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script>
+
+
+        /*======================= NAV  ============================*/
+        (function ($) {
+            "use strict";
+
+            $(function () {
+                var header = $(".start-style");
+                $(window).scroll(function () {
+                    var scroll = $(window).scrollTop();
+
+                    if (scroll >= 10) {
+                        header.removeClass('start-style').addClass("scroll-on");
+                    } else {
+                        header.removeClass("scroll-on").addClass('start-style');
+                    }
+                });
+            });
+
+            Animation
+            //==============================NAV DROPDOWNS ON HOVER=======================
+            $('body').on('mouseenter mouseleave', '.nav-item', function (e) {
+                if ($(window).width() > 750) {
+                    var _d = $(e.target).closest('.nav-item'); _d.addClass('show');
+                    setTimeout(function () {
+                        _d[_d.is(':hover') ? 'addClass' : 'removeClass']('show');
+                    }, 1);
+                }
+            });
+        })(jQuery);
+
+        // =============================DOCTOR============================
+        $("#carouselExampleControls").attr("data-interval", "2000");
+
+        $("#carouselExampleControlsSmallScreen").attr("data-interval", "1000");
+
+        // =============================TESTIMONIAL=============================================
+        $(document).ready(function () {
+
+            $("#testimonial-slider").owlCarousel({
+
+                items: 2,
+
+                itemsDesktop: [1000, 2],
+
+                itemsDesktopSmall: [979, 2],
+
+                itemsTablet: [768, 1],
+
+                pagination: true,
+
+                navigation: false,
+
+                slideSpeed: 1000,
+
+                singleItem: false,
+
+                navigationText: ["", ""],
+
+                autoPlay: true
+
+            });
+
+        });
+    </script>
+</body>
+
+</html>
